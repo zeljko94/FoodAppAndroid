@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#03A9F4"
+    tools:context="ba.sve_mo.fpmoz.zeljko.foodapp.IzmjenaProfilaActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"></LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:paddingRight="15dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="35dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ime:"
+                android:id="@+id/lblIme" />
+
+            <EditText
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtIme"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.12">
+
+            <TextView
+                android:paddingRight="15dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="35dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="15dp"
+                android:text="Prezime:"
+                android:id="@+id/lblPrezime" />
+
+            <EditText
+                android:paddingBottom="10dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPrezime"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1"
+            android:layout_weight="0.15">
+
+            <TextView
+                android:paddingRight="15dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="35dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Broj telefona:"
+                android:id="@+id/textView4" />
+
+            <EditText
+                android:paddingBottom="10dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTelefon"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:weightSum="1"
+            android:layout_weight="0.12">
+
+            <TextView
+                android:paddingRight="15dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="35dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Korisnicko ime:"
+                android:id="@+id/textView5" />
+
+            <EditText
+                android:paddingBottom="10dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtUsername"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:weightSum="1"
+            android:layout_weight="0.12">
+
+            <TextView
+                android:paddingRight="15dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="35dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Lozinka:"
+                android:id="@+id/textView3" />
+
+            <EditText
+                android:paddingBottom="10dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/txtPassword"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:weightSum="1"
+            android:layout_weight="0.12">
+
+            <TextView
+                android:paddingRight="15dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="35dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ponovi lozinku:"
+                android:id="@+id/textView6" />
+
+            <EditText
+                android:paddingBottom="10dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:id="@+id/txtRePassword"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:background="#B3E5FC"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Spremi izmjene"
+                android:id="@+id/btnSpremiIzmjene" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05" >
+
+            <TextView
+                android:gravity="center_horizontal|center_vertical"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/lblErrorMsg" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

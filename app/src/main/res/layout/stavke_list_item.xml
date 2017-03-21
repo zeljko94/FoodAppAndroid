@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:background="#0288D1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:gravity="start"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/ikonaStavke" />
+
+        <TextView
+            android:gravity="center_horizontal|center_vertical|start"
+            android:layout_marginLeft="110dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:paddingRight="5dp"
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Naziv artikla:"
+            android:id="@+id/nazivStavkeTxt"/>
+
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:textSize="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:text="+"
+                android:id="@+id/btnDodaj" />
+
+            <TextView
+                android:textSize="16dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="(1)"
+                android:id="@+id/kolicinaStavkeTxt" />
+
+            <Button
+                android:textSize="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:text="-"
+                android:id="@+id/btnUkloni" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginRight="70dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_alignParentRight="true"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cijena:"
+            android:id="@+id/cijenaStavkeTxt"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ba.sve_mo.fpmoz.zeljko.foodapp.MainActivity">
+
+    <item
+        android:id="@+id/action_postavke_profila"
+        android:orderInCategory="100"
+        android:title="Postavke profila"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_odjava"
+        android:orderInCategory="100"
+        android:title="Odjavi se"
+        app:showAsAction="never" />
+
+</menu>

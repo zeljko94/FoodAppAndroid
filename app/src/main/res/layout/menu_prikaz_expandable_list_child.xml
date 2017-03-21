@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:background="#B3E5FC"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_weight="0"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="start"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:id="@+id/menuArtiklIkona" />
+
+        <TextView
+            android:gravity="center_horizontal|center_vertical|start"
+            android:layout_marginLeft="100dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="#757575"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/nazivTxt" />
+
+        <TextView
+            android:gravity="center_horizontal|center_vertical|center"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="#757575"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/cijenaTxt" />
+
+        <TextView
+            android:gravity="end|center_horizontal|center_vertical|end"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="#757575"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/kolicinaTxt"
+            android:text="asdasd" />
+    </RelativeLayout>
+</LinearLayout>

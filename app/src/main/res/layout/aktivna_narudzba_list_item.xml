@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#0288D1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.00">
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="start"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/statusIkona" />
+
+        <TextView
+            android:gravity="center_horizontal|center_vertical|start"
+            android:layout_marginLeft="105dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Broj narudzbe"
+            android:id="@+id/brojNarduzbeTxt" />
+
+        <TextView
+            android:gravity="center_horizontal|center_vertical|center"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Broj stola"
+            android:id="@+id/brojStolaTxt" />
+
+        <TextView
+            android:gravity="end|center_horizontal|center_vertical|end"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cijena: "
+            android:id="@+id/aktivnaNarudzbaCijenaTxt" />
+
+    </RelativeLayout>
+</LinearLayout>
